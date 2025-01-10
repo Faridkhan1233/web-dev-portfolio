@@ -9,6 +9,10 @@
 
 
   /* shared style */
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
+
   .text-primary{
     color: rgb(253, 110, 10);
   }
@@ -25,7 +29,17 @@
     border-radius: 5px;
     border: none;
   }
+  .section-title{
+    font-size: 35Px;
+    font-weight: bold;
+    color: #181818;
 
+  }
+  .section-description{
+    font-size:18px ;
+    color: #757575;
+  }
+  
   /* header */
 .header{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
@@ -91,4 +105,27 @@ nav li a{
 }
 .banner-profile-pic{
     width: 580px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about style */
+.about{
+    border-radius: 1pc;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.item-description{
+    font-weight: 600;
 }
